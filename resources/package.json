@@ -17,5 +17,8 @@
   ],
   "author": "Davina Leong",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/DavinaLSY/script-generator/index.php"
+  "homepage": "https://bitbucket.org/DavinaLSY/script-generator/index.php",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
