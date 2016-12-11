@@ -1,0 +1,39 @@
+{
+  "name": "script_generator",
+  "version": "1.0.0",
+  "description": "Script generator tool",
+  "main": "../index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://DavinaLSY@bitbucket.org/DavinaLSY/script-generator.git"
+  },
+  "keywords": [
+    "script-generator",
+    "script",
+    "generator"
+  ],
+  "author": "Davina Leong",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/DavinaLSY/script-generator/index.php",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.2.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^2.2.4",
+    "parsleyjs": "^2.6.0",
+    "prismjs": "^1.6.0",
+    "sb-admin-2": "^3.3.8"
+  }
+}
