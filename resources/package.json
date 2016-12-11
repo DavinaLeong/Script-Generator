@@ -20,5 +20,13 @@
   "homepage": "https://bitbucket.org/DavinaLSY/script-generator/index.php",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^2.2.4",
+    "parsleyjs": "^2.6.0",
+    "prismjs": "^1.6.0",
+    "sb-admin-2": "^3.3.8"
   }
 }
