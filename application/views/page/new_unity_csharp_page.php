@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <?php $this->load->view('_snippets/meta'); ?>
     <?php $this->load->view('_snippets/head_resources'); ?>
-    <link href="<?=RESOURCES_FOLDER;?>script_generator/sg_styles_parsley.css" type="text/css" rel="stylesheet" />
+    <link href="<?=RESOURCES_FOLDER;?>script_generator/css/sg_styles_parsley.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div id="wrapper">
@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="page-header">New <span class="text-primary">Unity C&#35;</span> Script &lt;insert php icon&gt;</h2>
-                    <p>Filetype: <span class="text-primary">C&#35;</span></p>
+                    <p>Filetype: <span class="text-primary"></span></p>
 
                     <div class="row">
                         <div class="col-lg-10">
