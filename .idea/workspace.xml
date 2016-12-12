@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc642b8c-e235-44e4-b3c8-1c03d0b8d51f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/script_generator/sg_styles_main.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/_snippets/generic_delete_modal.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/_snippets/footer_admin.php" afterPath="$PROJECT_DIR$/application/views/_snippets/footer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/_snippets/meta_admin.php" afterPath="$PROJECT_DIR$/application/views/_snippets/meta.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/_snippets/navbar_admin.php" afterPath="$PROJECT_DIR$/application/views/_snippets/navbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Export.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/export/new_migration_export.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/page/new_migration_page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/constants.php" afterPath="$PROJECT_DIR$/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Authenticate.php" afterPath="$PROJECT_DIR$/application/controllers/Authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/migrations/20161211221516_inital_setup.php" afterPath="$PROJECT_DIR$/application/migrations/20161211221516_inital_setup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_snippets/body_resources.php" afterPath="$PROJECT_DIR$/application/views/_snippets/body_resources.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/User_log_model.php" afterPath="$PROJECT_DIR$/application/models/User_log_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_snippets/head_resources.php" afterPath="$PROJECT_DIR$/application/views/_snippets/head_resources.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_snippets/message_box.php" afterPath="$PROJECT_DIR$/application/views/_snippets/message_box.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_snippets/validation_errors_box.php" afterPath="$PROJECT_DIR$/application/views/_snippets/validation_errors_box.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/authenticate/login_page.php" afterPath="$PROJECT_DIR$/application/views/authenticate/login_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_snippets/navbar.php" afterPath="$PROJECT_DIR$/application/views/_snippets/navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/authenticate/start_page.php" afterPath="$PROJECT_DIR$/application/views/authenticate/start_page.php" />
     </list>
     <ignored path="script_generator.iws" />
@@ -58,41 +51,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.867925">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_log_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/User_log_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.423077">
+              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Export.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Export.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.943397">
+              <caret line="40" column="100" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_migration_template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/script_templates/new_migration_template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8679247">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_migration_page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/page/new_migration_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.79749715">
+              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+              <folding>
+                <marker date="1481549892700" expanded="true" signature="974:983" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="start_page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/authenticate/start_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/_snippets/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sg_styles_main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/script_generator/sg_styles_main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head_resources.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/_snippets/head_resources.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6185446">
-              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+            <state vertical-scroll-proportion="-20.73077">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,8 +119,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="PHP CI_Controller" />
         <option value="CSS File" />
+        <option value="PHP CI_Controller" />
+        <option value="PHTML" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -129,17 +146,28 @@
         <option value="$PROJECT_DIR$/application/views/_snippets/validation_errors_box.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/_snippets/meta.php" />
-        <option value="$PROJECT_DIR$/application/config/constants.php" />
         <option value="$PROJECT_DIR$/application/models/User_model.php" />
         <option value="$PROJECT_DIR$/application/views/_snippets/body_resources.php" />
         <option value="$PROJECT_DIR$/application/migrations/20161211221516_inital_setup.php" />
         <option value="$PROJECT_DIR$/application/controllers/Authenticate.php" />
-        <option value="$PROJECT_DIR$/application/views/_snippets/navbar.php" />
-        <option value="$PROJECT_DIR$/application/views/authenticate/start_page.php" />
         <option value="$PROJECT_DIR$/resources/script_generator/sg_styles_main.css" />
-        <option value="$PROJECT_DIR$/application/views/_snippets/head_resources.php" />
         <option value="$PROJECT_DIR$/application/views/_snippets/footer.php" />
         <option value="$PROJECT_DIR$/application/views/authenticate/login_page.php" />
+        <option value="$PROJECT_DIR$/application/views/export/template/new_migration_template.php" />
+        <option value="$PROJECT_DIR$/application/views/export/page/new_migration_page.php" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/views/_snippets/navbar.php" />
+        <option value="$PROJECT_DIR$/application/views/script_templates/test_template.html" />
+        <option value="$PROJECT_DIR$/application/views/script_templates/test_template.php" />
+        <option value="$PROJECT_DIR$/application/views/_snippets/head_resources.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Page.php" />
+        <option value="$PROJECT_DIR$/application/views/export/new_migration_export.php" />
+        <option value="$PROJECT_DIR$/application/config/constants.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Export.php" />
+        <option value="$PROJECT_DIR$/application/views/script_templates/new_migration_template.php" />
+        <option value="$PROJECT_DIR$/application/models/User_log_model.php" />
+        <option value="$PROJECT_DIR$/application/views/authenticate/start_page.php" />
+        <option value="$PROJECT_DIR$/application/views/page/new_migration_page.php" />
       </list>
     </option>
   </component>
@@ -226,6 +254,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prismjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -266,7 +334,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="script_templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="export" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,7 +458,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,9 +492,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\script_generator\application\controllers" />
+      <recent name="C:\wamp64\www\script_generator\application\views\export\page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\script_generator\application\views\script_templates" />
+      <recent name="C:\wamp64\www\script_generator\application\views\export" />
+      <recent name="C:\wamp64\www\script_generator\application\views" />
       <recent name="C:\wamp64\www\script_generator\application\controllers" />
     </key>
   </component>
@@ -494,18 +632,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="99" selection-start-line="57" selection-start-column="99" selection-end-line="57" selection-end-column="99" />
           <folding>
-            <marker date="1481514642508" expanded="true" signature="1435:1486" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="1491:1775" placeholder="CREATE TABLE... ci_sessions" />
-            <marker date="1481514642508" expanded="true" signature="1781:1812" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="1826:2189" placeholder="CREATE TABLE... user_log" />
-            <marker date="1481514642508" expanded="true" signature="2204:2248" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="2253:2771" placeholder="CREATE TABLE... user" />
-            <marker date="1481514642508" expanded="true" signature="2777:2852" placeholder="INSERT INTO `user`... " />
-            <marker date="1481514642508" expanded="true" signature="2777:2962" placeholder="INSERT INTO `user`... " />
-            <marker date="1481514642508" expanded="true" signature="2777:3008" placeholder="INSERT INTO `user`... " />
-            <marker date="1481514642508" expanded="true" signature="3091:3142" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="3148:3196" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="3202:3246" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="1435:1486" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="1491:1775" placeholder="CREATE TABLE... ci_sessions" />
+            <marker date="1481516538311" expanded="true" signature="1781:1812" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="1826:2189" placeholder="CREATE TABLE... user_log" />
+            <marker date="1481516538311" expanded="true" signature="2204:2248" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="2253:2771" placeholder="CREATE TABLE... user" />
+            <marker date="1481516538311" expanded="true" signature="2777:2852" placeholder="INSERT INTO `user`... " />
+            <marker date="1481516538311" expanded="true" signature="2777:2962" placeholder="INSERT INTO `user`... " />
+            <marker date="1481516538311" expanded="true" signature="2777:3008" placeholder="INSERT INTO `user`... " />
+            <marker date="1481516538311" expanded="true" signature="3091:3142" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="3148:3196" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="3202:3246" placeholder="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
@@ -515,7 +653,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1481516295149" expanded="true" signature="1742:1782" placeholder="..." />
+            <marker date="1481516538329" expanded="true" signature="1742:1782" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -559,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/migration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63253695">
@@ -593,13 +724,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.01934016">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -639,22 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30944255">
           <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9419795">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/User_log_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9230769">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -701,45 +809,19 @@
         <state vertical-scroll-proportion="-17.461538">
           <caret line="75" column="83" selection-start-line="75" selection-start-column="83" selection-end-line="75" selection-end-column="83" />
           <folding>
-            <marker date="1481514642508" expanded="true" signature="1435:1486" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="1491:1775" placeholder="CREATE TABLE... ci_sessions" />
-            <marker date="1481514642508" expanded="true" signature="1781:1812" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="1826:2189" placeholder="CREATE TABLE... user_log" />
-            <marker date="1481514642508" expanded="true" signature="2204:2248" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="2253:2771" placeholder="CREATE TABLE... user" />
-            <marker date="1481514642508" expanded="true" signature="2777:2852" placeholder="INSERT INTO `user`... " />
-            <marker date="1481514642508" expanded="true" signature="2777:2962" placeholder="INSERT INTO `user`... " />
-            <marker date="1481514642508" expanded="true" signature="2777:3008" placeholder="INSERT INTO `user`... " />
-            <marker date="1481514642508" expanded="true" signature="3091:3142" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="3148:3196" placeholder="DROP TABLE I... " />
-            <marker date="1481514642508" expanded="true" signature="3202:3246" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="1435:1486" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="1491:1775" placeholder="CREATE TABLE... ci_sessions" />
+            <marker date="1481516538311" expanded="true" signature="1781:1812" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="1826:2189" placeholder="CREATE TABLE... user_log" />
+            <marker date="1481516538311" expanded="true" signature="2204:2248" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="2253:2771" placeholder="CREATE TABLE... user" />
+            <marker date="1481516538311" expanded="true" signature="2777:2852" placeholder="INSERT INTO `user`... " />
+            <marker date="1481516538311" expanded="true" signature="2777:2962" placeholder="INSERT INTO `user`... " />
+            <marker date="1481516538311" expanded="true" signature="2777:3008" placeholder="INSERT INTO `user`... " />
+            <marker date="1481516538311" expanded="true" signature="3091:3142" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="3148:3196" placeholder="DROP TABLE I... " />
+            <marker date="1481516538311" expanded="true" signature="3202:3246" placeholder="DROP TABLE I... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3461537">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/_snippets/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1217293">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/authenticate/start_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,21 +841,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="93" column="49" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4641638">
+          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/_snippets/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.076923">
+          <caret line="45" column="163" selection-start-line="45" selection-start-column="163" selection-end-line="45" selection-end-column="163" />
+          <folding>
+            <marker date="1481532608248" expanded="true" signature="2196:2233" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/authenticate/login_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75881684">
+        <state vertical-scroll-proportion="-36.615383">
           <caret line="56" column="94" selection-start-line="56" selection-start-column="94" selection-end-line="56" selection-end-column="94" />
           <folding>
-            <marker date="1481516295149" expanded="true" signature="1742:1782" placeholder="..." />
+            <marker date="1481516538329" expanded="true" signature="1742:1782" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/_snippets/head_resources.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6185446">
-          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+        <state vertical-scroll-proportion="-29.23077">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/export/new_migration_export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30944255">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.943397">
+          <caret line="40" column="100" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.867925">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/User_log_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.423077">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/authenticate/start_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.73077">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020477816">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.961538">
+          <caret line="98" column="61" selection-start-line="98" selection-start-column="61" selection-end-line="98" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/script_templates/new_migration_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8679247">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/page/new_migration_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79749715">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding>
+            <marker date="1481549892700" expanded="true" signature="974:983" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

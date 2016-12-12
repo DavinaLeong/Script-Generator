@@ -16,11 +16,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <?php $this->load->view('_snippets/meta'); ?>
     <?php $this->load->view('_snippets/head_resources'); ?>
-    <style>
-        .row {
-            min-height: 650px;
-        }
-    </style>
 </head>
 <body>
 <div id="wrapper">
@@ -28,13 +23,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Page Content -->
     <div id="page-wrapper">
         <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li class="active">Home</li>
+            </ol>
+
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Welcome to Script Generator</h1>
                     <p class="lead">You are logged in as <span class="text-primary"><?=$this->session->userdata('name');?></span>.</p>
-                    <p>Script Generator is a simple tool built to assist in exporting commonly used scripts.</p>
-                    <p>There is no CRUD for this Admin Panel.</p>
-                    <p>The main purpose of the login is to prevent access of this tool to strangers of this site.</p>
+                    <?php $this->load->view('_snippets/message_box'); ?>
+                    <ul>
+                        <li>Script Generator is a simple tool built to assist in exporting commonly used scripts.</li>
+                        <li>There is no CRUD for this Admin Panel.</li>
+                        <li>The main purpose of the login is to prevent access of this tool to strangers of this site.</li>
+                    </ul>
                 </div>
             </div>
             <?php $this->load->view('_snippets/footer'); ?>

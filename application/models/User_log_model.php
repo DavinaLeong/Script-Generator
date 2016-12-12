@@ -58,7 +58,7 @@ class User_log_model extends CI_Model
         if( ! $this->validate_access_custom("AMU", $this->session->userdata('access')))
         {
             $this->session->set_userdata('message', 'This user has invalid access rights.');
-            redirect('admin/authenticate/login');
+            redirect('authenticate/login');
         }
     }
 
@@ -67,7 +67,7 @@ class User_log_model extends CI_Model
         if( ! $this->validate_access_custom("A", $this->session->userdata('access')))
         {
             $this->session->set_userdata('message', 'This user has invalid access rights.');
-            redirect('admin/authenticate/login');
+            redirect('authenticate/login');
         }
     }
 
