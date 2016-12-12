@@ -26,15 +26,14 @@ class Page extends CI_Controller
 	public function new_migration()
 	{
 		$this->User_log_model->validate_access();
-		$this->load->library('Datetime_helper');
 		$this->load->view('page/new_migration_page');
 	}
 
 	public function new_unity_csharp()
 	{
 		$this->User_log_model->validate_access();
-		$this->load->library('Debug_helper');
-		$this->debug_helper->_error_page_not_implemented('new_unit_csharp');
+		$this->load->library('Datetime_helper');
+		$this->load->view('page/new_unity_csharp_page');
 	}
 	
 } // end Page controller class

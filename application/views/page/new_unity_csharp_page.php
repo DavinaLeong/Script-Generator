@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 /**********************************************************************************
 	- File Info -
-		File name		: new_migration_page.php
+		File name		: new_unity_csharp_page.php
 		Author(s)		: DAVINA Leong Shi Yun
-		Date Created	: 11 Dec 2016
+		Date Created	: 12 Dec 2016
 
 	- Contact Info -
 		Email	: leong.shi.yun@gmail.com
@@ -27,13 +27,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <ol class="breadcrumb">
                 <li><a href="<?=site_url();?>">Home</a></li>
                 <li><a href="<?=site_url('page');?>">Page</a></li>
-                <li class="active">New Migration Script</li>
+                <li class="active">New Unity C&#35; Script</li>
             </ol>
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="page-header">New <span class="text-primary">Migration</span> Script &lt;insert php icon&gt;</h2>
-                    <p>Filetype: <span class="text-primary">PHP</span></p>
+                    <h2 class="page-header">New <span class="text-primary">Unity C&#35;</span> Script &lt;insert php icon&gt;</h2>
+                    <p>Filetype: <span class="text-primary">C&#35;</span></p>
 
                     <div class="row">
                         <div class="col-lg-10">
@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <?php $this->load->view('_snippets/validation_errors_box'); ?>
                             <?php $this->load->view('_snippets/message_box'); ?>
 
-                            <form id="new_migration_form" class="form-horizontal" method="post" action="<?=site_url('export/new_migration');?>" data-parsley-validate>
+                            <form id="new_unity_csharp_form" class="form-horizontal" method="post" action="<?=site_url('export/new_unity_csharp');?>" data-parsley-validate>
                                 <div class="form-group">
                                     <label class="col-md-2 control-label" for="script_name">Script Name <span class="text-danger">*</span></label>
                                     <div class="col-md-10">

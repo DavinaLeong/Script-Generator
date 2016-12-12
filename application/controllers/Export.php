@@ -23,7 +23,7 @@ class Export extends CI_Controller
 		redirect('authenticate/start');
 	}
 
-	private function _set_form_validation_rules()
+	private function _set_validation_rules()
 	{
 		$this->form_validation->set_rules('script_name', 'Script Name', 'trim|required|alpha_dash|max_length[512]');
 		$this->form_validation->set_rules('include_comment_header', 'Include comment header', 'trim|in_list[0,1]|max_length[4]');
@@ -32,7 +32,7 @@ class Export extends CI_Controller
 	public function new_migration()
 	{
 		$this->User_log_model->validate_access();
-		$this->_set_form_validation_rules();
+		$this->_set_validation_rules();
 		if($this->form_validation->run())
 		{
 			$data = array(
@@ -46,6 +46,23 @@ class Export extends CI_Controller
 		else
 		{
 			redirect('page/new_migration');
+		}
+	}
+
+	public function new_unity_csharp()
+	{
+		$this->User_log_model->validate_access();
+		$this->_set_validation_rules();
+		if($this->form_validation->run())
+		{
+			$data = array(
+				'class_name' => $this->input->post('script_name'),
+				'include_comment_header' => $this->input->post('include_comment_header') ? TRUE : FALSE
+			);
+			$this->load->view('export/new_unity_csharp_export', $data);
+		}
+		else {
+			redirect('page/new_unity_csharp');
 		}
 	}
 	
