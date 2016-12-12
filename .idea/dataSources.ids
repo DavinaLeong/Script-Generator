@@ -11,79 +11,90 @@
       <table id="2" parent="1" name="ci_sessions"/>
       <table id="3" parent="1" name="user"/>
       <table id="4" parent="1" name="user_log"/>
-      <column id="5" parent="2" name="id">
+      <table id="5" parent="1" name="migrations"/>
+      <column id="6" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>varchar(40)</data-type>
       </column>
-      <column id="6" parent="2" name="ip_address">
+      <column id="7" parent="2" name="ip_address">
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
-      <column id="7" parent="2" name="timestamp">
+      <column id="8" parent="2" name="timestamp">
         <mandatory>1</mandatory>
         <data-type>int(10) unsigned</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="8" parent="2" name="data">
+      <column id="9" parent="2" name="data">
         <mandatory>1</mandatory>
         <data-type>blob</data-type>
       </column>
-      <index id="9" parent="2" name="ci_sessions_timestamp">
+      <index id="10" parent="2" name="ci_sessions_timestamp">
         <columns>timestamp</columns>
         <desc-columns></desc-columns>
       </index>
-      <column id="10" parent="3" name="user_id">
+      <column id="11" parent="3" name="user_id">
         <mandatory>1</mandatory>
         <data-type>int(3) unsigned</data-type>
       </column>
-      <column id="11" parent="3" name="username">
+      <column id="12" parent="3" name="username">
         <mandatory>1</mandatory>
         <data-type>varchar(128)</data-type>
       </column>
-      <column id="12" parent="3" name="password_hash">
+      <column id="13" parent="3" name="password_hash">
         <mandatory>1</mandatory>
         <data-type>varchar(512)</data-type>
       </column>
-      <column id="13" parent="3" name="name">
+      <column id="14" parent="3" name="name">
         <data-type>varchar(128)</data-type>
       </column>
-      <column id="14" parent="3" name="access">
+      <column id="15" parent="3" name="access">
         <mandatory>1</mandatory>
         <data-type>varchar(128)</data-type>
       </column>
-      <column id="15" parent="3" name="status">
+      <column id="16" parent="3" name="status">
         <mandatory>1</mandatory>
         <data-type>varchar(128)</data-type>
       </column>
-      <column id="16" parent="3" name="last_updated">
+      <column id="17" parent="3" name="date_added">
+        <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
         <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
       </column>
-      <key id="17" parent="3" name="PRIMARY">
+      <column id="18" parent="3" name="last_updated">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="19" parent="3" name="PRIMARY">
         <columns>user_id</columns>
         <primary>1</primary>
       </key>
-      <column id="18" parent="4" name="ulid">
+      <column id="20" parent="4" name="ulid">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="19" parent="4" name="user_id">
+      <column id="21" parent="4" name="user_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="20" parent="4" name="message">
+      <column id="22" parent="4" name="message">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="21" parent="4" name="timestamp">
+      <column id="23" parent="4" name="timestamp">
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
         <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
       </column>
-      <key id="22" parent="4" name="PRIMARY">
+      <key id="24" parent="4" name="PRIMARY">
         <columns>ulid</columns>
         <primary>1</primary>
       </key>
+      <column id="25" parent="5" name="version">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
     </database-model>
   </data-source>
 </component>

@@ -4,29 +4,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	- File Info -
 		File name		: head_resources.php
 		Author(s)		: DAVINA Leong Shi Yun
-		Date Created	: 23rd Sep 2016
+		Date Created	: 11 Dec 2016
 
 	- Contact Info -
 		Email	: leong.shi.yun@gmail.com
 		Mobile	: (+65) 9369 3752 [Singapore]
 
 ***********************************************************************************/
-?><title>Colours Repo</title>
+?><title><?=SITE_TITLE;?> - Admin Panel</title>
 
 <!-- favicon -->
-<link href="<?=RESOURCES_FOLDER;?>colour_repo/img/webpage_icon.png" type="image/png" rel="icon">
+<link href="<?=RESOURCES_FOLDER;?>script_generator/script_generator_icon.png" type="image/png" rel="icon">
 
-<!-- Bootstrap core CSS -->
-<link href="<?=RESOURCES_FOLDER;?>vendor/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<!--external css-->
-<link href="<?=RESOURCES_FOLDER;?>vendor/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<!-- Bootstrap Core CSS -->
+<link href="<?=RESOURCES_FOLDER;?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom styles for this template -->
-<link href="<?=RESOURCES_FOLDER;?>vendor/dashgum/css/style.css" type="text/css" rel="stylesheet">
-<link href="<?=RESOURCES_FOLDER;?>vendor/dashgum/css/style-responsive.css" type="text/css" rel="stylesheet">
+<!-- MetisMenu CSS -->
+<link href="<?=RESOURCES_FOLDER;?>vendor/sb-admin-2/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
-<!-- Custome Colour Repo styles -->
-<link href="<?=RESOURCES_FOLDER;?>colour_repo/dist/css/cr_styles.min.css" type="text/css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="<?=RESOURCES_FOLDER;?>vendor/sb-admin-2/dist/css/sb-admin-2.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="<?=RESOURCES_FOLDER;?>vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- Script Generator CSS -->
+<link href="<?=RESOURCES_FOLDER;?>script_generator/sg_styles_main.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

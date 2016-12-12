@@ -73,7 +73,7 @@ class Migration_Inital_setup extends CI_Migration
 			) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 			INSERT INTO `user` (`username`, `password_hash`, `name`, `access`, `status`, `date_added`, `last_updated`)
-			VALUES('admin', '" . $password_hash . "', 'Default Admin', 'Active', 'A', '" . $date_added . "', '" . $last_updated . "');
+			VALUES('admin', '" . $password_hash . "', 'Default Admin', 'A', 'Active', '" . $date_added . "', '" . $last_updated . "');
 		";
 
 		return $script;
@@ -90,19 +90,6 @@ class Migration_Inital_setup extends CI_Migration
 		";
 
 		return $script;
-	}
-
-	private function _generate_users()
-	{
-		$this->load->model('User_model');
-		$user = array(
-			'username' => 'admin',
-			'name' => 'Default Admin',
-			'password_hash' => password_hash('password', PASSWORD_DEFAULT),
-			'access' => 'A',
-			'status' => 'Active'
-		);
-		$this->User_model->insert($user);
 	}
 	
 } // end 20161211221516_inital_setup class

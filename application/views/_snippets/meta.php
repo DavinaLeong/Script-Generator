@@ -2,22 +2,17 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 /**********************************************************************************
 	- File Info -
-		File name		: footer_admin.php
+		File name		: meta_admin.php
 		Author(s)		: DAVINA Leong Shi Yun
-		Date Created	: 28th Sep 2016
+		Date Created	: 11 Dec 2016
 
 	- Contact Info -
 		Email	: leong.shi.yun@gmail.com
 		Mobile	: (+65) 9369 3752 [Singapore]
 
 ***********************************************************************************/
-?><!--footer start-->
-<footer class="site-footer">
-    <div class="text-center">
-        <?= $this->datetime_helper->today('Y'); ?> &#8226; Colour Repo
-        <a href="./#container" class="go-top">
-            <i class="fa fa-angle-up"></i>
-        </a>
-    </div>
-</footer>
-<!--footer end-->
+?><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="<?=SITE_TITLE;?> - Admin Panel">
+<meta name="author" content="Davina Leong">

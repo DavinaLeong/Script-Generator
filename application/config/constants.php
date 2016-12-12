@@ -90,25 +90,10 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 |--------------------------------------------------------------------------
 */
 
-define('RESOURCES_FOLDER', 'http://localhost/colours_repo/resources/');
-define('UPLOADS_FOLDER', 'http://localhost/colours_repo/uploads/');
+define('SITE_TITLE', 'Script Generator');
+define('RESOURCES_FOLDER', 'http://localhost/script_generator/resources/');
 define('DATE_TIME_ZONE', 'Asia/Singapore');
 define('SYSTEM_DATE_FORMAT', 'd-m-Y');
 
-// regex patterns
-define('REGEX_SYSTEM_DATE', '/^[0-9]{2}-[0-9]{2}-[0-9]{4}$/');
-define('REGEX_DECIMAL', '/^\d+\.?\d+$/');
-define('REGEX_PARSLEY_DECIMAL', '^\d+\.?\d+$');
-define('REGEX_COLOUR_HEX', '/^[#]{1}[0-9a-fA-F]{6}$/');
-define('REGEX_PARSLEY_COLOUR_HEX', '^[#]{1}[0-9a-fA-F]{6}$');
-define('REGEX_PARSLEY_USERNAME', '[A-Za-z0-9_-]+');
-
-define('REGEX_PARSLEY_MIGRATIONS_FILENAME', '^[A-Z]{1}[_a-zA-Z0-9]+');
-
-define('ADMIN_LOGIN_URL', 'admin/authenticate/login');
-define('ADMIN_HOME_URL', 'admin/authenticate/start');
-
-// table names
 define('TABLE_USER', 'user');
 define('TABLE_USER_LOG', 'user_log');
-define('TABLE_WEB_SAFE_COLOUR', 'web_safe_colour');

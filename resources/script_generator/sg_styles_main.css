@@ -1,0 +1,26 @@
+/**********************************************************************************
+	- File Info -
+		File name		: footer_admin.php
+		Author(s)		: DAVINA Leong Shi Yun
+		Date Created	: 11 Dec 2016
+
+	- Contact Info -
+		Email	: leong.shi.yun@gmail.com
+		Mobile	: (+65) 9369 3752 [Singapore]
+
+***********************************************************************************/
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-oblique {
+    font-style: oblique;
+}
+
+.text-underline {
+    text-decoration: underline;
+}

@@ -21,7 +21,7 @@ class Authenticate extends CI_Controller
 
     public function index()
     {
-        redirect('admin/authenticate/login');
+        redirect('authenticate/login');
     }
 
     public function login()
@@ -45,7 +45,7 @@ class Authenticate extends CI_Controller
             $this->load->model('User_model');
             if($user = $this->User_model->get_by_username($this->input->post('username')))
             {
-                if($user['status'] === 'Active')
+                if($user['status'] == 'Active')
                 {
                     if(password_verify($this->input->post('password'), $user['password_hash']))
                     {
@@ -57,7 +57,7 @@ class Authenticate extends CI_Controller
 
                         $this->User_log_model->log_message('User logged in.');
                         $this->session->set_userdata('message', 'Login successful.');
-                        redirect('admin/authenticate/start');
+                        redirect('authenticate/start');
                     }
                     else
                     {
@@ -75,7 +75,7 @@ class Authenticate extends CI_Controller
             }
         }
 
-        $this->load->view('admin/authenticate/login_page');
+        $this->load->view('authenticate/login_page');
     }
 
     private function _set_rules_login()
@@ -86,13 +86,13 @@ class Authenticate extends CI_Controller
 
     public function logout()
     {
-        redirect('admin/authenticate/login');
+        redirect('authenticate/login');
     }
 
     public function start()
     {
         $this->User_log_model->validate_access();
-        $this->load->view('admin/authenticate/start_page');
+        $this->load->view('authenticate/start_page');
     }
 
     /**
