@@ -36,3 +36,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<style>
+	.row {
+		min-height: 650px;
+	}
+
+	pre, code {
+		border-radius: 0;
+		border: none;
+	}
+
+	pre {
+		max-height: 650px;
+		overflow: auto;
+	}
+</style>

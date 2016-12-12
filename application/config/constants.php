@@ -95,5 +95,8 @@ define('RESOURCES_FOLDER', 'http://localhost/script_generator/resources/');
 define('DATE_TIME_ZONE', 'Asia/Singapore');
 define('SYSTEM_DATE_FORMAT', 'd-m-Y');
 
+define('MIGRATION_DATE_FORMAT', 'YmdHis');
+define('REGEX_PARSLEY_FILENAME', '^[A-Z]{1}[_a-zA-Z0-9]+');
+
 define('TABLE_USER', 'user');
 define('TABLE_USER_LOG', 'user_log');
