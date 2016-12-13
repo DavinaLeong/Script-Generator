@@ -55,7 +55,7 @@ gulp.task("copy-vendor", function()
 		NODE_PATH + "font-awesome/css/font-awesome.min.css"
 	]).pipe(gulp.dest(VENDOR_PATH + "font-awesome/css"));
 	gulp.src([
-		NODE_PATH + "font-awesome/fonts"
+		NODE_PATH + "font-awesome/fonts/**"
 	]).pipe(gulp.dest(VENDOR_PATH + "font-awesome/fonts"));
 	console.log("~ copied Font Awesome files.");
 

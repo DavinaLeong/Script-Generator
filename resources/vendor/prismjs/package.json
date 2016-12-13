@@ -1,11 +1,11 @@
 {
   "_args": [
     [
-      "prismjs",
+      "prismjs@^1.6.0",
       "C:\\wamp64\\www\\script_generator\\resources"
     ]
   ],
-  "_from": "prismjs@latest",
+  "_from": "prismjs@>=1.6.0 <2.0.0",
   "_id": "prismjs@1.6.0",
   "_inCache": true,
   "_installable": true,
@@ -23,11 +23,11 @@
   "_phantomChildren": {},
   "_requested": {
     "name": "prismjs",
-    "raw": "prismjs",
-    "rawSpec": "",
+    "raw": "prismjs@^1.6.0",
+    "rawSpec": "^1.6.0",
     "scope": null,
-    "spec": "latest",
-    "type": "tag"
+    "spec": ">=1.6.0 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/"
@@ -35,7 +35,7 @@
   "_resolved": "https://registry.npmjs.org/prismjs/-/prismjs-1.6.0.tgz",
   "_shasum": "118d95fb7a66dba2272e343b345f5236659db365",
   "_shrinkwrap": null,
-  "_spec": "prismjs",
+  "_spec": "prismjs@^1.6.0",
   "_where": "C:\\wamp64\\www\\script_generator\\resources",
   "author": {
     "name": "Lea Verou"
