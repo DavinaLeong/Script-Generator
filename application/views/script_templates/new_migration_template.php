@@ -39,7 +39,7 @@ if($include_comment_header) {
 
 #region Migration Version
 echo "/* Migration version: " . $newline;
-echo " * " . $this->datetime_helper->now('d M Y, h:iA') . $newline;
+echo " * " . $this->datetime_helper->now('d M Y, h:i:s A') . $newline;
 echo " * " . $version_number . $newline;
 echo " */" . $newline;
 #endregion
@@ -51,20 +51,28 @@ echo $tab . "// Public Functions -----------------------------------------------
 echo $tab . "public function up()" . $newline;
 echo $tab . "{" . $newline;
 echo $tab . $tab . "\$this->load->model('Script_runner_model');" . $newline;
-echo $tab . $tab . "echo \$this->Script_runner_model->run_script(\$this->_up_script())['output_str'];" . $newline;
+echo $tab . $tab . "\$output = \$this->Script_runner_model->run_script(\$this->_up_script())['output_str'];" . $newline;
+echo $tab . $tab . "if(ENVRIONMENT !== 'testing')" . $newline;
+echo $tab . $tab . "{" . $newline;
+echo $tab . $tab . $tab . "echo \"<code>\" . \$output . \"</code><hr/>\";" . $newline;
+echo $tab . $tab . "}" . $newline;
 echo $tab . "}" . $newline;
 echo $emptyline;
 echo $tab . "public function down()" . $newline;
 echo $tab . "{" . $newline;
 echo $tab . $tab . "\$this->load->model('Script_runner_model');" . $newline;
-echo $tab . $tab . "echo \$this->Script_runner_model->run_script(\$this->_down_script())['output_str'];" . $newline;
+echo $tab . $tab . "\$output = \$this->Script_runner_model->run_script(\$this->_down_script())['output_str'];" . $newline;
+echo $tab . $tab . "if(ENVRIONMENT !== 'testing')" . $newline;
+echo $tab . $tab . "{" . $newline;
+echo $tab . $tab . $tab . "echo \"<code>\" . \$output . \"</code><hr/>\";" . $newline;
+echo $tab . $tab . "}" . $newline;
 echo $tab . "}" . $newline;
 echo $emptyline;
 echo $tab . "// Private Functions ---------------------------------------------------------------" . $newline;
 echo $tab . "private function _up_script()" . $newline;
 echo $tab . "{" . $newline;
 echo $tab . $tab . "\$sql = \"" . $newline;
-echo $tab . $tab . $emptyline;
+echo $tab . $tab . $tab . '#create tables here' . $newline;
 echo $tab . $tab . "\";" . $newline;
 echo $tab . $tab . "return \$sql;" . $newline;
 echo $tab . "}" . $newline;
@@ -72,7 +80,7 @@ echo $emptyline;
 echo $tab . "private function _down_script()" . $newline;
 echo $tab . "{" . $newline;
 echo $tab . $tab . "\$sql = \"" . $newline;
-echo $tab . $tab . $emptyline;
+echo $tab . $tab . $tab . "#drop tables here" . $newline;
 echo $tab . $tab . "\";" . $newline;
 echo $tab . $tab . "return \$sql;" . $newline;
 echo $tab . "}" . $newline;
